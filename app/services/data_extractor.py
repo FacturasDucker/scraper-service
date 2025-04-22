@@ -111,7 +111,7 @@ class DataExtractor:
         """
         # Patrones para nombre o razón social
         patterns = [
-            r'NOMBRE(?:\s*,\s*DENOMINACIÓN\s*O\s*RAZÓN\s*SOCIAL)?\s*:?\s*([^\n]{5,150})',
+            r'NOMBRE\s*COMERCIAL?\s*:?\s*([^\n]{5,150})',
             r'DENOMINACIÓN/RAZÓN\s*SOCIAL\s*:?\s*([^\n]{5,150})',
             r'CONTRIBUYENTE\s*:?\s*([^\n]{5,150})'
         ]
