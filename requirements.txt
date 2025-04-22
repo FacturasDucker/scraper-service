@@ -1,0 +1,23 @@
+# Dependencias principales
+fastapi==0.95.0
+uvicorn[standard]==0.21.1
+python-multipart==0.0.6
+pydantic==1.10.7
+email-validator==2.0.0
+
+# Procesamiento de PDFs
+PyMuPDF==1.21.1
+pytesseract==0.3.10
+Pillow==9.5.0
+numpy==1.24.3
+opencv-python-headless==4.7.0.72
+
+# Utilidades
+python-dotenv==1.0.0
+pydantic[dotenv]==1.10.7
+aiofiles==23.1.0
+tenacity==8.2.2
+structlog==23.1.0
+
+# Métricas y monitoreo (opcional en entorno real)
+prometheus-client==0.16.0
